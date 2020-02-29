@@ -1,0 +1,7 @@
+curl http://192.168.0.108:8081/zeroconf/signal_strength -XPOST --data '{"deviceid":"1000b72703","data":{} }'
+
+curl http://192.168.0.110:8081/zeroconf/info -XPOST --data '{"deviceid":"1000b72703","data":{} }'
+curl http://192.168.0.108:8081/zeroconf/ota_unlock -XPOST --data '{"deviceid":"1000b72703","data":{} }'
+curl http://192.168.0.108:8081/zeroconf/wifi -XPOST --data '{"deviceid":"1000b72703","data":{ "ssid": "gatuzas_house", "password": "elatem@@" } }'
+
+curl http://192.168.0.108:8081/zeroconf/ota_flash -XPOST --data '{"deviceid":"<deviceID>","data":{"downloadUrl": "http://192.168.0.106:8080/tasmota-lite.bin", "sha256sum": "aa413f499233901f74502558561a1304e2a3d7ab72259740b377f52775adbb5d"} }'

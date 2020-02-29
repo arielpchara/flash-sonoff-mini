@@ -1,0 +1,22 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^7.0.4",
+    "inquirer-fuzzy-path": "^2.2.0",
+    "mdns": "^2.5.1",
+    "ora": "^4.0.3"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "internet-available": "^1.0.0",
+    "morgan": "^1.9.1"
+  }
+}
